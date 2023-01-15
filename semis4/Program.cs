@@ -6,4 +6,3 @@ while(current <= number)
     Console.Write($"{current}, ");
     current++;
 }
-Console.Write("\b\b     ");
