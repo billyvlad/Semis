@@ -1,10 +1,14 @@
 ﻿// Напишите программу, которая на вход принимает число (N), а на выходе показывает все четные числа от 1 до N
 
-Console.Write("Введите число ");
+Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int current = -1 * number;
-while(current <= number)
+int sum = 2;
+
+if(number > 1)
 {
-    Console.Write($"{current}, ");
-    current++;
+    while(sum <= number)
+    {
+        Console.Write(sum + " ");
+        sum = sum + 2;
+    }
 }
