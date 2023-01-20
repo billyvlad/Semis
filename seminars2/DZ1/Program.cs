@@ -8,17 +8,20 @@ Console.WriteLine($"{number} -> {result}");
 
 
 
-
-Console.WriteLine("Введите число: ");
-int numbers = Convert.ToInt32(Console.ReadLine());
 int dig3 = number % 100 / 10;
 int result1 = dig3;
-if(numbers > 1000)
+
+if(number > 1000)
 {
-    Console.WriteLine("Ты задал больше чем трехзначное число");
+    Console.WriteLine("Ты задал больше, чем трехзначное число");
+}
+else if(number < 100)
+{
+    Console.WriteLine("ты задал менее трех чисел");
+
 }
 else
 {
     Console.WriteLine($"{number} -> {result}");
-
 }
+
