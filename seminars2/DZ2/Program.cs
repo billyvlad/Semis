@@ -11,4 +11,20 @@ else
 }
 
 
+int result = -1;
+if (number >= 100)
+{
+    while(number > 999)
+    {
+      number = number / 10;
+    }
+result = number % 10;
+Console.WriteLine("Третья цифра - " + result);
+}
+else
+{
+  Console.WriteLine("третьей цифры нет");
+}
+
+
 
