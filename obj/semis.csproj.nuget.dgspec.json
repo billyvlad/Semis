@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/vladya/Рабочий стол/semis/semis.csproj": {}
+    "/home/vladya/Рабочий стол/semis/Semis/semis.csproj": {}
   },
   "projects": {
-    "/home/vladya/Рабочий стол/semis/semis.csproj": {
+    "/home/vladya/Рабочий стол/semis/Semis/semis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vladya/Рабочий стол/semis/semis.csproj",
+        "projectUniqueName": "/home/vladya/Рабочий стол/semis/Semis/semis.csproj",
         "projectName": "semis",
-        "projectPath": "/home/vladya/Рабочий стол/semis/semis.csproj",
+        "projectPath": "/home/vladya/Рабочий стол/semis/Semis/semis.csproj",
         "packagesPath": "/home/vladya/.nuget/packages/",
-        "outputPath": "/home/vladya/Рабочий стол/semis/obj/",
+        "outputPath": "/home/vladya/Рабочий стол/semis/Semis/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vladya/.nuget/NuGet/NuGet.Config"
